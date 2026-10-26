@@ -1,0 +1,21 @@
+# --- Heavy files (ignore everything except examples) ---
+data/*
+!data/.gitkeep
+!data/example/
+!data/example/**
+# --- Results (ignore everything except figure) ---
+results/*
+!results/.gitkeep
+!results/figures/
+!results/figures/**
+# --- Other files
+.DS_Store
+Thumbs.db
+*.swp
+*~
+.idea/
+.vscode/
+.Rhistory
+.Rproj.user/
+__pycache__/
+*.pyc
