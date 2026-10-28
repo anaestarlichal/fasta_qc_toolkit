@@ -1,0 +1,9 @@
+name: seqkit-toolkit
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - seqkit
+  - r-base
+  - r-tidyverse
+  - r-patchwork
