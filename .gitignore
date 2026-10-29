@@ -1,8 +1,8 @@
 # --- Heavy files (ignore everything except examples) ---
 data/*
 !data/.gitkeep
-!data/example/
-!data/example/**
+!data/test/
+!data/test/**
 # --- Results (ignore everything except figure) ---
 results/*
 !results/.gitkeep

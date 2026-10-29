@@ -2,8 +2,11 @@ name: seqkit-toolkit
 channels:
   - conda-forge
   - bioconda
+  - nodefaults
 dependencies:
   - seqkit
   - r-base
-  - r-tidyverse
+  - r-readr
+  - r-dplyr
+  - r-ggplot2
   - r-patchwork
